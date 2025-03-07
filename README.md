@@ -37,3 +37,12 @@ This creates an ubuntu instance that acts as our service. We will ping this inst
 <img width="725" alt="Screenshot 2025-03-06 at 9 39 21 PM" src="https://github.com/user-attachments/assets/ff7f7722-53a0-4306-be34-f29b3b4d4484" />
 
 This show the AWS infrastructure. A user connects to the OpenVPN through the instances. Traffic is routed through the IGW to the OpenVPN instance and traffic to AWS infrastructure is tunneled through the VPN
+
+
+# Connecting to OpenVPN
+
+Download the OpenVPN client here https://openvpn.net/client/
+
+SSH to your AWS instance using the key pair you created and the auto assigned public IP of your instance. You can grab the public IP from the output. Go through the OpenVPN CLI configuration (you can just hit yes for most default answers but remember to set your password)
+
+When you are done, open the OpenVPN client. In URL, enter the URL of your server which is the auto assigned public IP address. Click Next. Then enter your username and password and click import. Toggle the connect button and you should be able to connect! Ping your ubuntu instance to verify connectivity.
