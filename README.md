@@ -2,7 +2,7 @@
 
 This creates an OpenVPN instance and a Ubuntu instance in us-east-1 and the AWS network infrastructure to support it.
 
-**network.tf**
+# **network.tf**
 
 network.tf creates a VPC 192.168.1.0/24 and two subnets in us-east-1a and us-east-1b with CIDRs 192.168.1.0/25 and 192.168.1.128/25 respectively. These are the subnets that the OpenVPN and Ubuntu instances are hosted in.
 
