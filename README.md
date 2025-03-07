@@ -31,3 +31,7 @@ This creates the OpenVPN instance and references an SSH key that is not included
 # **service-ec2.tf**
 
 This creates an ubuntu instance that acts as our service. We will ping this instance to verify connectivity to servers across the VPN
+
+# Diagram
+
+<img width="725" alt="Screenshot 2025-03-06 at 9 39 21 PM" src="https://github.com/user-attachments/assets/ff7f7722-53a0-4306-be34-f29b3b4d4484" />
