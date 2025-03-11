@@ -36,7 +36,7 @@ After creating this user, select command CLI as the use case. We need this for t
 
 Create an access key and copy paste your access key and secret access key 
 
-![0](https://github.com/user-attachments/assets/3740fb4f-9fc2-4227-8a07-8d16e7077077)
+<img width="1023" alt="Screenshot 2025-03-10 at 9 56 57 PM" src="https://github.com/user-attachments/assets/f3fa9794-4f0e-4145-a5c8-ecc677db872f" />
 
 In the CLI, run the `AWS configure` command and enter your access key and secret access key accordingly, along with the other inputs. In this example, we enter our keys and set our default region to us-east-1
 
