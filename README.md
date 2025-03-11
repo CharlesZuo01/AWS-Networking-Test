@@ -224,3 +224,13 @@ Your ping is tunneled to the OpenVPN server and then it is NATed by the OpenVPN 
 
 ![Untitled](https://github.com/user-attachments/assets/4e0aa8fb-7e12-4939-b291-c24e605f5f7a)
 
+This is also a full tunnel VPN so your internet traffic will be NATed through the VPN. You can verify this through the command
+
+```
+czuo@DESKTOP-MNVSHD8:~$ curl ifconfig.me
+54.152.152.154czuo@DESKTOP-MNVSHD8:~$
+```
+
+This returns the public IP address of my OpenVPN instance
+
+
