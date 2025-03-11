@@ -7,7 +7,6 @@
 - [Terraform-Configuration](#Terraform-Configuration)
 - [Diagram](#Diagram)
 - [OpenVPN-Configuration](#OpenVPN-Configuration)
-- [Usage](#Usage)
 - [Testing](#Testing)
 
 # Introduction
@@ -87,12 +86,16 @@ This creates the OpenVPN instance and references an the SSH key that was manuall
 
 This creates an ubuntu instance that acts as our service. We will ping this instance to verify connectivity to servers across the VPN
 
+
+#### Building the service
+
 Create the service by running the following commands
 ```
 terraform plan
 terraform apply 
 ```
-Then type yes when asked if you want to apply
+
+Verify the resources that are being created. Then type yes when asked if you want to apply
 
 # Diagram
 
