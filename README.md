@@ -217,3 +217,8 @@ Reply from 10.24.24.221: bytes=32 time=77ms TTL=126
 Reply from 10.24.24.221: bytes=32 time=76ms TTL=126
 Reply from 10.24.24.221: bytes=32 time=76ms TTL=126
 ```
+
+Your ping is tunneled to the OpenVPN server and then it is NATed by the OpenVPN private IP address. In this case, my OpenVPN private IP address is 10.24.24.67
+
+![Untitled](https://github.com/user-attachments/assets/4e0aa8fb-7e12-4939-b291-c24e605f5f7a)
+
