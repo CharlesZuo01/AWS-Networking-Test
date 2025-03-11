@@ -1,5 +1,5 @@
 resource "aws_vpc" "vpn-vpc" {
-  cidr_block = "192.168.1.0/24"
+  cidr_block = "10.24.24.0/24"
 
   tags = {
     Name = "vpn-vpc"
@@ -8,13 +8,13 @@ resource "aws_vpc" "vpn-vpc" {
 
 resource "aws_subnet" "vpn" {
   vpc_id            = aws_vpc.vpn-vpc.id
-  cidr_block        = "192.168.1.0/25"
+  cidr_block        = "10.24.24.0/25"
   availability_zone = "us-east-1a"
 }
 
 resource "aws_subnet" "service" {
   vpc_id            = aws_vpc.vpn-vpc.id
-  cidr_block        = "192.168.1.128/25"
+  cidr_block        = "10.24.24.128/25"
   availability_zone = "us-east-1b"
 }
 
