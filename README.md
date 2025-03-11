@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [AWS-CLI](#AWS-CLI)
-- [AWS-Configuration](#AWS-configuration)
+- [Terraform-Configuration](#AWS-configuration)
 - [Diagram](#Diagram)
 - [OpenVPN-Configuration](#OpenVPN-Configuration)
 - [Usage](#Usage)
@@ -27,6 +27,8 @@ In the AWS console create a new AWS user and assign it to a group that has the p
 
 ![0](https://github.com/user-attachments/assets/879e5448-8dc8-416a-8b40-287f2f4f5e78)
 
+Create a user group that has full administrator access and assign it to the user
+
 ![0](https://github.com/user-attachments/assets/4d3c0f36-2d46-4099-9202-e5079a25da68)
 
 After creating this user, select command CLI as the use case. We need this for terraform to work
@@ -37,11 +39,11 @@ Create an access key and copy paste your access key and secret access key
 
 ![0](https://github.com/user-attachments/assets/3740fb4f-9fc2-4227-8a07-8d16e7077077)
 
-In the CLI, run the AWS configure command and enter your access key and secret access key accordingly, along with the other inputs. In this example, we enter our keys and set our default region to us-east-1
+In the CLI, run the `AWS configure` command and enter your access key and secret access key accordingly, along with the other inputs. In this example, we enter our keys and set our default region to us-east-1
 
 ![Untitled](https://github.com/user-attachments/assets/911d3f76-3c90-4acb-ae61-e2975b72ec6d)
 
-# AWS-Configuration
+# Terraform-Configuration
 
 This section explains the terraform configuration. References to Terraform resources can be found [here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc). For terraform state, we are using a local tfstate file. More information about this later in the USAGE section
 
