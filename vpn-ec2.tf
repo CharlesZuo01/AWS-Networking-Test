@@ -4,7 +4,7 @@ resource "aws_instance" "openvpn" {
   vpc_security_group_ids = [aws_security_group.instance.id]
   subnet_id              = aws_subnet.vpn.id
   associate_public_ip_address = true  # Ensures the instance gets a public IP
-  key_name        = aws_key_pair.openvpn.openvpn
+  key_name = "openvpn"
   
   tags = {
     Name = "openvpn"
