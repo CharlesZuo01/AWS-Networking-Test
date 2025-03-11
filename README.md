@@ -197,6 +197,11 @@ Go to user management and create a new user. Under Access Control section, add t
 
 ![Untitled](https://github.com/user-attachments/assets/0bbb6a11-612e-494a-bfbb-120d5f555b86)
 
+Open the VPN settings page and add your private subnets that you want reachable over the VPN in the private subnets list. You can also enable all internet traffic to be tunneled through the VPN
+
+![Untitled](https://github.com/user-attachments/assets/1d65765e-6b9a-44a9-b320-80fa0628251d)
+
+
 Open the OpenVPN client, create a new profile with the IP address of your instance, and connect to the instance using the new user you created.
 
 
