@@ -202,13 +202,12 @@ Open the VPN settings page and add your private subnets that you want reachable 
 ![Untitled](https://github.com/user-attachments/assets/1d65765e-6b9a-44a9-b320-80fa0628251d)
 
 
-Open the OpenVPN client, create a new profile with the IP address of your instance, and connect to the instance using the new user you created.
+# Testing
 
+Open the OpenVPN client, create a new profile with the IP address of your instance, and connect to the instance using the new user you created.
 
 ![Untitled](https://github.com/user-attachments/assets/7692716c-6bba-4e24-b3a6-aca500023507)
 
-
-# Testing
 Run `terraform output` to get the IP address of the ubuntu server
 Ping the ubuntu server when connected to VPN 
 
