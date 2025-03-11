@@ -3,7 +3,7 @@
 ## Table of Contents 
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
-- [AWS-CLI](#AWS-CLI)
+- [Installing-AWS-CLI](#Installing-AWS-CLI)
 - [Terraform-Configuration](#AWS-configuration)
 - [Diagram](#Diagram)
 - [OpenVPN-Configuration](#OpenVPN-Configuration)
@@ -21,7 +21,7 @@ This creates an OpenVPN instance and a Ubuntu instance in us-east-1 and the AWS 
 [OpenVPN Client](https://openvpn.net/client/)
 
 
-# AWS-CLI
+# Instalaling-AWS-CLI
 
 In the AWS console create a new AWS user and assign it to a group that has the permissions that you need. In this case, we are going to give it full administrator access
 
