@@ -44,7 +44,7 @@ In the CLI, run the `AWS configure` command and enter your access key and secret
 
 # Terraform-Configuration
 
-This section explains the terraform configuration. References to Terraform resources can be found [here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc). For terraform state, we are using a local tfstate file. More information about this later in the USAGE section
+This section explains the terraform configuration. References to Terraform resources can be found [here](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc). For terraform state, we are using a local tfstate file. More information about keeping state local can be found (here)[https://developer.hashicorp.com/terraform/language/backend/local]
 
 
 #### Creating your key pair
