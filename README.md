@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installing-AWS-CLI](#Installing-AWS-CLI)
-- [Terraform-Configuration](#AWS-configuration)
+- [Terraform-Configuration](#Terraform-Configuration)
 - [Diagram](#Diagram)
 - [OpenVPN-Configuration](#OpenVPN-Configuration)
 - [Usage](#Usage)
