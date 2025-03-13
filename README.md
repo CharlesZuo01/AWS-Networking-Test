@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Prerequisites](#prerequisites)
 - [Installing-AWS-CLI](#Installing-AWS-CLI)
+- [Acceping-OpenVPN-AMI](#Acceping-OpenVPN-AMI)
 - [Terraform-Configuration](#Terraform-Configuration)
 - [Diagram](#Diagram)
 - [OpenVPN-Configuration](#OpenVPN-Configuration)
@@ -41,6 +42,14 @@ Create an access key and copy paste your access key and secret access key
 In the CLI, run the `AWS configure` command and enter your access key and secret access key accordingly, along with the other inputs. In this example, we enter our keys and set our default region to us-east-1
 
 ![Untitled](https://github.com/user-attachments/assets/911d3f76-3c90-4acb-ae61-e2975b72ec6d)
+
+# Acceping-OpenVPN-AMI
+
+In the AWS console, go to EC2 -> AMI Catalog, and search for the OpenVPN AMI, `OpenVPN Access Server / Self-Hosted VPN (BYOL)` or `ami-037ff6453f0855c46` if building in us-east-1
+Select AMI and click Subscribe Now
+
+<img width="1009" alt="Screenshot 2025-03-12 at 6 59 19 PM" src="https://github.com/user-attachments/assets/9e882e71-2681-4af7-a993-a9c62271b707" />
+
 
 # Terraform-Configuration
 
